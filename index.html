@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sudoxnym fdroid repo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --neon-cyan: #00ffff;
+      --neon-pink: #ff00ff;
+      --neon-purple: #b400ff;
+      --dark-bg: #0a0a0f;
+      --text-color: #e0e0e0;
+    }
+    body {
+      font-family: "Rajdhani", sans-serif;
+      background: var(--dark-bg);
+      color: var(--text-color);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 600px;
+      text-align: center;
+    }
+    h1 {
+      font-family: "Orbitron", sans-serif;
+      font-size: 2.5rem;
+      color: var(--neon-cyan);
+      margin-bottom: 0.5rem;
+      text-transform: lowercase;
+    }
+    .tagline {
+      color: var(--neon-pink);
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    .qr-section {
+      background: rgba(20, 20, 30, 0.8);
+      border: 1px solid var(--neon-purple);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .qr-section img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 1rem;
+    }
+    .repo-url {
+      font-family: monospace;
+      background: rgba(0, 255, 255, 0.1);
+      padding: 0.8rem 1.2rem;
+      border: 1px solid var(--neon-cyan);
+      color: var(--neon-cyan);
+      display: inline-block;
+      word-break: break-all;
+      margin-bottom: 1rem;
+    }
+    .copy-btn {
+      background: var(--neon-purple);
+      border: none;
+      color: white;
+      padding: 0.5rem 1.5rem;
+      font-family: "Orbitron", sans-serif;
+      cursor: pointer;
+      text-transform: lowercase;
+      transition: all 0.3s;
+    }
+    .copy-btn:hover {
+      background: var(--neon-pink);
+      box-shadow: 0 0 15px var(--neon-pink);
+    }
+    .apps {
+      margin-top: 2rem;
+    }
+    .app-card {
+      background: rgba(20, 20, 30, 0.8);
+      border: 1px solid var(--neon-purple);
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: left;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .app-icon {
+      width: 64px;
+      height: 64px;
+      background: var(--neon-purple);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+    }
+    .app-info h3 {
+      font-family: "Orbitron", sans-serif;
+      color: var(--neon-pink);
+      text-transform: lowercase;
+      margin-bottom: 0.3rem;
+    }
+    .app-info p {
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      background: var(--neon-purple);
+      color: white;
+      font-size: 0.75rem;
+      margin-top: 0.5rem;
+    }
+    .instructions {
+      margin-top: 2rem;
+      text-align: left;
+      background: rgba(20, 20, 30, 0.6);
+      padding: 1.5rem;
+      border-left: 3px solid var(--neon-cyan);
+    }
+    .instructions h4 {
+      color: var(--neon-cyan);
+      margin-bottom: 0.5rem;
+      font-family: "Orbitron", sans-serif;
+      text-transform: lowercase;
+    }
+    .instructions ol {
+      margin-left: 1.2rem;
+      color: #ccc;
+    }
+    .instructions li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: var(--neon-cyan);
+    }
+    .back-link {
+      margin-top: 2rem;
+      color: var(--neon-pink);
+      text-decoration: none;
+      font-family: "Orbitron", sans-serif;
+      text-transform: lowercase;
+    }
+    .back-link:hover {
+      text-shadow: 0 0 10px var(--neon-pink);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>sudoxnym repo</h1>
+    <p class="tagline">// f-droid app repository</p>
+
+    <div class="qr-section">
+      <img src="repo/icons/icon.png" alt="QR Code" onerror="this.style.display='none'">
+      <div class="repo-url">https://sudoxnym.github.io/fdroid-repo/repo</div>
+      <br><br>
+      <button class="copy-btn" onclick="navigator.clipboard.writeText('https://sudoxnym.github.io/fdroid-repo/repo');this.textContent='copied!';setTimeout(()=>this.textContent='copy url',2000)">copy url</button>
+    </div>
+
+    <div class="apps">
+      <h3 style="color:var(--neon-cyan);font-family:Orbitron;text-transform:lowercase;margin-bottom:1rem">// available apps</h3>
+      <div class="app-card">
+        <div class="app-icon">🌙</div>
+        <div class="app-info">
+          <h3>nightd</h3>
+          <p>android tv screen dimmer. blacks out display while keeping media playing.</p>
+          <span class="badge">v1.3</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructions">
+      <h4>// how to add this repo</h4>
+      <ol>
+        <li>open <strong>f-droid</strong> or <strong>neostore</strong></li>
+        <li>go to settings → repositories</li>
+        <li>tap "add repository"</li>
+        <li>paste the url above or scan the qr code</li>
+        <li>refresh and install apps</li>
+      </ol>
+    </div>
+
+    <a href="https://sudoxreboot.com" class="back-link">← back to sudoxreboot.com</a>
+  </div>
+</body>
+</html>
