@@ -1,9 +1,13 @@
-AuthorName: ''
+AuthorName: sudoxnym
 Categories:
-- fdroid-repo
+- System
 CurrentVersionCode: 2147483647
-IssueTracker: ''
+License: MIT
 Name: nightd
-SourceCode: ''
-Summary: ''
-WebSite: ''
+Summary: screen dimmer for android tv
+Description: |
+  screen dimmer for android tv. reduces screen brightness with an overlay
+  for comfortable viewing in dark rooms.
+WebSite: https://github.com/sudoxnym/nightd
+SourceCode: https://github.com/sudoxnym/nightd
+IssueTracker: https://github.com/sudoxnym/nightd/issues
