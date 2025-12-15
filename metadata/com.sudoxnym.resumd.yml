@@ -1,0 +1,13 @@
+AuthorName: sudoxnym
+Categories:
+- System
+CurrentVersionCode: 2147483647
+License: MIT
+Name: resumd
+Summary: recent apps overlay for rooted android tv
+Description: |
+  recent apps overlay for android tv. shows your recently used apps
+  in a floating overlay. requires root.
+WebSite: https://github.com/sudoxnym/resumd
+SourceCode: https://github.com/sudoxnym/resumd
+IssueTracker: https://github.com/sudoxnym/resumd/issues

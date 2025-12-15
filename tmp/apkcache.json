@@ -61,5 +61,43 @@
     "apkName": "nightd.apk",
     "icon": "com.sudoxnym.nightd.8.png",
     "added": 1765224542.0
+  },
+  "resumd.apk": {
+    "hash": "03eee76c843089180256c5510f4911eb0c6fe651cd876e89616f4a5524a48be1",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.QUERY_ALL_PACKAGES",
+        null
+      ],
+      [
+        "com.sudoxnym.resumd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "160": "res/drawable/resumd_icon.png",
+      "-1": "res/drawable/resumd_icon.png"
+    },
+    "icons": {
+      "160": "com.sudoxnym.resumd.1.png",
+      "640": "com.sudoxnym.resumd.1.png",
+      "0": "com.sudoxnym.resumd.1.png"
+    },
+    "antiFeatures": {},
+    "packageName": "com.sudoxnym.resumd",
+    "versionCode": 1,
+    "name": "resumd",
+    "versionName": "1.0",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 34,
+    "sig": "f6c5c9624f5712f65d78c6261f4e33c3",
+    "signer": "ff4336c6eaf2e11c6dea26ed311931b541a5915bdccc69f155f110dba90c6076",
+    "size": 6916243,
+    "apkName": "resumd.apk",
+    "icon": "com.sudoxnym.resumd.1.png",
+    "added": 1765819060.953485
   }
 }
