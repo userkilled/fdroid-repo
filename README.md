@@ -6,7 +6,7 @@ personal f-droid repository for sudoxnym's android apps.
 
 scan this qr code or add the repo url manually:
 
-**repo url:** `https://sudoxnym.github.io/fdroid-repo/repo`
+**repo url:** `https://sudoxreboot.github.io/fdroid-repo/repo`
 
 ## apps
 
